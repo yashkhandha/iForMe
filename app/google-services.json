@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "574931202387",
+    "firebase_url": "https://iforme-4e631.firebaseio.com",
+    "project_id": "iforme-4e631",
+    "storage_bucket": "iforme-4e631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574931202387:android:4a1134a0dfe8ea5c",
+        "android_client_info": {
+          "package_name": "edu.monash.iforme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574931202387-6b9k4aj52lpn98m0aiijcnb3i4bos0au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.monash.iforme",
+            "certificate_hash": "8001d549f430f48a3473d679518c0cb715728573"
+          }
+        },
+        {
+          "client_id": "574931202387-v2d24c4o2208b3hv36on3iqj6uqpv6ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMEb5B1EhtLSJhQ_CEOLb1saGYpyr64HA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574931202387-v2d24c4o2208b3hv36on3iqj6uqpv6ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
