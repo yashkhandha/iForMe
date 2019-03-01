@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police | Fire | Ambulance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/buttonCall1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 000"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SES Emergency"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/buttonCall2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 132 500"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police Attendance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/buttonCall3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 131 444"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Carer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/buttonCall4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 0416711092"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nurse"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/buttonCall5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call 95911190"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>

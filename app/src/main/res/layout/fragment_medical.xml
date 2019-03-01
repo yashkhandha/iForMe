@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.monash.iforme.MedicalFragment"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/back2">
+
+    <ListView
+        android:id="@+id/medicationListView"
+        android:layout_width="match_parent"
+        android:layout_height="1200dp"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:focusable="false"
+        />
+
+</RelativeLayout>

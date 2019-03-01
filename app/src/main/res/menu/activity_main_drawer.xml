@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_fragment"
+            android:checkable="false"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:checkable="false"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Emergency Calls" />
+        <item
+            android:id="@+id/nav_medical"
+            android:checkable="false"
+            android:icon="@drawable/alarm"
+            android:title="Medical Reminders" />
+        <item
+            android:id="@+id/nav_maps"
+            android:checkable="false"
+            android:icon="@drawable/ic_location"
+            android:title="Park &amp; Find" />
+
+        <item
+            android:id="@+id/nav_game"
+            android:checkable="false"
+            android:icon="@android:drawable/star_on"
+            android:title="Play PacMan" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <!--
+            <item
+                android:id="@+id/settings_fragment"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+                -->
+            <item
+                android:id="@+id/takeTour"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Take Tour" />
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

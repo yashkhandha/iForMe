@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/back2">
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/medicationName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_medication_name"
+                    android:cursorVisible="true"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/medicationTypeTextView"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Type of Medication"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"/>
+
+            <Spinner
+                android:id="@+id/medicationTypeSpinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/medication_type_array"
+                android:spinnerMode="dialog"
+                android:layout_gravity="center"
+                android:textAlignment="textEnd"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/dosageTextView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dosage_array"
+                android:text="Dosage"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <Spinner
+                android:id="@+id/dosageSpinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dosage_array"
+                android:spinnerMode="dialog"
+                android:layout_gravity="center"
+                android:textAlignment="textEnd"
+                tools:ignore="RtlCompat"/>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/instructions"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_medication_instructions"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/medicineColourTextView"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Colour of Medicine"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <Spinner
+                android:id="@+id/medicineColourSpinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:entries="@array/colour_array"
+                android:spinnerMode="dialog"
+                android:textAlignment="textEnd"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/medicineShapeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Shape of Medicine"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+            <Spinner
+                android:id="@+id/medicineShapeSpinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:entries="@array/shape_array"
+                android:spinnerMode="dialog"
+                android:textAlignment="textEnd"
+                android:visibility="gone"
+                tools:ignore="RtlCompat" />
+
+            <LinearLayout
+                android:id="@+id/firstLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/saveMedicineButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_light"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/clearMedicineButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@android:color/holo_red_light"
+                    android:text="Clear" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
